@@ -1,0 +1,7 @@
+Django==2.1.7
+django-mssql==1.8
+et-xmlfile==1.0.1
+jdcal==1.4
+openpyxl==2.6.1
+psycopg2==2.7.7
+pytz==2018.9

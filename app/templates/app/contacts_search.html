@@ -1,0 +1,28 @@
+{% extends 'base_template.html' %}
+
+{% block content %}
+
+   <form class="form-inline my-2 my-lg-0" action="{% url 'contacts' %}" method="post">
+      {% csrf_token %}
+     <div>
+       <h3>Contacts</h3>
+      <input class="form-control mr-sm-2" type="search" placeholder="first name, last name (lat)" aria-label="Search" name="contact_search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+     </div>
+     </form>
+
+ <form method="post" action="{% url 'department_contacts' %}">
+   {% csrf_token %}
+    <select name="department">
+        <!--<option selected="selected" disabled>Objects on page:</option>-->
+        {% for d in departments %}
+        <option value="{{ d.pk }}">{{ d.name }}</option>
+        {% endfor %}
+    </select>
+    <input type="submit" value="Select">
+</form>
+
+
+
+
+{% endblock %}

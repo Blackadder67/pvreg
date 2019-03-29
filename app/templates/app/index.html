@@ -1,0 +1,22 @@
+{% extends 'base_template.html' %}
+{% load static %}
+{% block content %}
+<div class="jumbotron .jumbotron-fluid m-1">
+  <h3 class="display-4">Sun Pharma</h3>
+  <p class="lead">Moscow Office</p>
+  <hr class="my-4">
+  <p>Elektrozavodskaya str., 27/8, BC Lefort, Moscow 107023, Russia</p>
+  <p>Telephone: +7 495 234 5611</p>
+  <img src="{% static 'app/start_img/lefortovo.jpg' %}" class="img-fluid" alt="Responsive image">
+  <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+</div>
+
+<div class="container">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="{% url 'pv' %}">Pharmacovigilance</a>
+    <a class="navbar-brand" href="{% url 'reg' %}">Regulatory</a>
+    <a class="navbar-brand" href="{% url 'ct' %}">Clinical Studies</a>
+    <a class="navbar-brand" href="{% url 'contacts_search' %}">Contacts</a>
+  </nav>
+</div>
+{% endblock %}

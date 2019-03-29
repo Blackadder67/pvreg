@@ -1,0 +1,905 @@
+[
+  {
+  {
+    "fname": "Artur",
+    "lname": "Valiev",
+    "designation": "General Director",
+    "ext": "2222",
+    "email": "Artur.Valiev@sunpharma.com"
+  },
+  {
+    "fname": "Tatyana",
+    "lname": "Suslova ",
+    "designation": "Senior Executive on administrative support to General Director ",
+    "ext": "2139",
+    "mobile": "8 905 553 66 71",
+    "email": "Tatiyana.Suslova@sunpharma.com"
+  },
+  {
+    "fname": "Olga",
+    "lname": "Tsap ",
+    "designation": "Reception & Office Support Supervisor",
+    "ext": "2110",
+    "mobile": "8 919 660 22 88",
+    "email": "Olga.Tsap@sunpharma.com"
+  },
+  {
+    "fname": "Kristina",
+    "lname": "Tolmacheva ",
+    "designation": "Reception & Office Support Supervisor ",
+    "ext": "1104",
+    "mobile": "8 925 568 51 29",
+    "email": "Kristina.Tolmachjova@sunpharma.com"
+  },
+  {
+    "fname": "Anastasiya",
+    "lname": "Yakovleva ",
+    "designation": "Office support specialist",
+    "ext": "2220",
+    "mobile": "8 915 130 15 29",
+    "email": "Anastasiya.Yakovleva@sunpharma.com"
+  },
+  {
+    "fname": "Svetlana",
+    "lname": "Neverdovskaya ",
+    "designation": "Business Unit Head CHCD",
+    "ext": "2126",
+    "mobile": "8 985 763 96 51",
+    "email": "Svetlana.Neverdovskaya@sunpharma.com"
+  },
+  {
+    "fname": "Mikhail",
+    "lname": "Tsekulin ",
+    "designation": "National Sales Manager CHCD",
+    "ext": "2237",
+    "mobile": "8 985 766 60 76",
+    "email": "Mikhail.Tsekulin@sunpharma.com"
+  },
+  {
+    "fname": "Roman",
+    "lname": "Dudkin ",
+    "designation": "Marketing Manager CHCD",
+    "ext": "2236",
+    "mobile": "8 926 112 80 55",
+    "email": "Roman.Dudkin@sunpharma.com"
+  },
+  {
+    "fname": "Elena",
+    "lname": "Mazaeva ",
+    "designation": "Brand Manager CHCD",
+    "ext": "2215",
+    "mobile": "8 915 206 90 80",
+    "email": "Elena.Mazaeva@sunpharma.com"
+  },
+  {
+    "fname": "Alla ",
+    "lname": "Opletina  ",
+    "designation": "Senior Area Manager (Moscow Region & Central Russia)",
+    "ext": "2219",
+    "mobile": "8 985 616 79 49",
+    "email": "Alla.Opletina@sunpharma.com"
+  },
+  {
+    "fname": "Kseniya",
+    "lname": "Podzolko ",
+    "designation": "Assistant CHCD ",
+    "ext": "2114",
+    "mobile": "8 901 901 79 57",
+    "email": "Kseniya.Podzolko@sunpharma.com"
+  },
+  {
+    "fname": "Julia",
+    "lname": "Ryukaeva ",
+    "designation": "Marketing Manager CHCD",
+    "ext": "2106",
+    "mobile": "8 926 233 75 03",
+    "email": "Julia.Ryukaeva@sunpharma.com"
+  },
+  {
+    "fname": "Ekaterina",
+    "lname": "Seregina ",
+    "designation": "Marketing Assistant  CHCD",
+    "ext": "2251",
+    "mobile": "8 916 842 74 48      ",
+    "email": "Ekaterina.Seregina@sunpharma.com           "
+  },
+  {
+    "fname": "Arina ",
+    "lname": "Starostina  ",
+    "designation": "Brand Executive CHCD",
+    "ext": "2121",
+    "mobile": "8 926 571 36 27",
+    "email": "Arina.Starostina@sunpharma.com"
+  },
+  {
+    "fname": "Anna",
+    "lname": "Timasheva ",
+    "designation": "Senior Brand Executive CHCD",
+    "ext": "2204",
+    "mobile": "8 964 582 55 60",
+    "email": "Anna.Timasheva@sunpharma.com"
+  },
+  {
+    "fname": "Kirill",
+    "lname": "Bartagov ",
+    "designation": "Business Unit Head Ethicals",
+    "ext": "2227",
+    "mobile": "8 926 523 77 63",
+    "email": "Kirill.Bartagov@sunpharma.com"
+  },
+  {
+    "fname": "Oxana ",
+    "lname": "Markova  ",
+    "designation": "National Sales Manager Rx Department",
+    "ext": "2216",
+    "mobile": "8 916 051 42 92",
+    "email": "Oxana.Markova@sunpharma.com"
+  },
+  {
+    "fname": "Evgeniya",
+    "lname": "Alexeenko ",
+    "designation": "Brand Manager Ethical ",
+    "ext": "2122",
+    "mobile": "8 909 999 43 05",
+    "email": "Evgeniya.alexeenko@sunpharma.com"
+  },
+  {
+    "fname": "Olga",
+    "lname": "Barsukova ",
+    "designation": "Assistant to Ethical Department",
+    "ext": "2201",
+    "mobile": "8 916 585 60 17",
+    "email": "Olga.Barsukova@sunpharma.com"
+  },
+  {
+    "fname": "Viktoriya",
+    "lname": "Baryshnikova ",
+    "designation": "Brand Executive Ethical ",
+    "ext": "2127",
+    "mobile": "8 916 851 76 35",
+    "email": "Viktoriya.Baryshnikova@sunpharma.com"
+  },
+  {
+    "fname": "Alexander  ",
+    "lname": "Bogdanov   ",
+    "designation": "Brand Executive Ethical",
+    "ext": "2135",
+    "mobile": "8 916 883 37 48  ",
+    "email": "Alexander.Bogdanov@sunpharma.com"
+  },
+  {
+    "fname": "Stanislav",
+    "lname": "Gonzhal ",
+    "designation": "Senior Marketing MGR Ethical ",
+    "ext": "2151",
+    "mobile": "8 985 764 17 85",
+    "email": "Stanislav.Gonzhal@sunpharma.com"
+  },
+  {
+    "fname": "Natalya",
+    "lname": "Kulikova ",
+    "designation": "Brand Manager Ethical ",
+    "ext": "2239",
+    "mobile": "8 916 980 23 75",
+    "email": "Natalya.Kulikova@sunpharma.com"
+  },
+  {
+    "fname": "Alexander",
+    "lname": "Litvinov ",
+    "designation": "Brand Manager Ethical ",
+    "ext": "2229",
+    "mobile": "8 926 160 05 98",
+    "email": "Alexander.Litvinov@sunpharma.com"
+  },
+  {
+    "fname": "Nikita",
+    "lname": "Mavzyutov ",
+    "designation": "Brand Executive Ethical ",
+    "ext": "2249",
+    "mobile": "8 963 638 85 00",
+    "email": "Nikita.Mavzyutov@sunpharma.com "
+  },
+  {
+    "fname": "Ekaterina ",
+    "lname": "Pokrovskaya  ",
+    "designation": "Senior Marketing MGR Ethical ",
+    "ext": "2152",
+    "mobile": "8 910 456 31 79",
+    "email": "Ekaterina.Pokrovskaya@sunpharma.com"
+  },
+  {
+    "fname": "Marat ",
+    "lname": "Sadykov  ",
+    "designation": "Brand Manager Ethical ",
+    "ext": "2241",
+    "mobile": "8 916 684 37 01",
+    "email": "Marat.Sadykov2@sunpharma.com"
+  },
+  {
+    "fname": "Svetlana",
+    "lname": "Savenko ",
+    "designation": "Brand Manager Ethical ",
+    "ext": "2254",
+    "mobile": "8 985 364 50 03 ",
+    "email": "Svetlana.Savenko@sunpharma.com          "
+  },
+  {
+    "fname": "Vera ",
+    "lname": "Titsova  ",
+    "designation": "Area Manager Ethicals (Moscow Region & Central Russia)",
+    "ext": "2125",
+    "mobile": "8 985 854 11 83",
+    "email": "Vera.Titsova@sunpharma.com"
+  },
+  {
+    "fname": "Nina",
+    "lname": "Toropova ",
+    "designation": "Marketing assistant",
+    "ext": "2225",
+    "mobile": "8 916 351 84 75",
+    "email": "nina.toropova@sunpharma.com"
+  },
+  {
+    "fname": "Yuriy",
+    "lname": "Lyubovin ",
+    "designation": "Hospital department Head",
+    "ext": "2154",
+    "mobile": "8 985 456 97 79",
+    "email": "Yuriy.Lyubovin@sunpharma.com"
+  },
+  {
+    "fname": "Rajput",
+    "lname": "Arun Kumar ",
+    "designation": "Head of Business Development and Analytics",
+    "ext": "2132",
+    "mobile": "8 985 424 63 83 ",
+    "email": "Arun.Rajput@sunpharma.com"
+  },
+  {
+    "fname": "Ekaterina ",
+    "lname": "Ivanova  ",
+    "designation": "Analyst",
+    "ext": "2256",
+    "mobile": "8 985 622 11 99",
+    "email": "Ekaterina.Ivanova@sunpharma.com"
+  },
+  {
+    "fname": "Julia",
+    "lname": "Kryukova ",
+    "designation": "Senior Analyst ",
+    "ext": "1122",
+    "mobile": "8 985 306 69 27",
+    "email": "Julia.Kryukova@sunpharma.com"
+  },
+  {
+    "fname": "Vera",
+    "lname": "Kulikova ",
+    "designation": "MIS Specialist",
+    "ext": "2228",
+    "mobile": "8 916 707 21 07 ",
+    "email": "vera.kulikova@sunpharma.com"
+  },
+  {
+    "fname": "Aleksandr",
+    "lname": "Sarapkin ",
+    "designation": "Analytic Manager",
+    "ext": "1141",
+    "mobile": "8 903 181 25 57",
+    "email": "Aleksandr.Sarapkin@sunpharma.com"
+  },
+  {
+    "fname": "Ekaterina",
+    "lname": "Scherbatova ",
+    "designation": "Sales Analyst ",
+    "ext": "2209",
+    "mobile": "8 969 021 76 71",
+    "email": "Ekaterina.Scherbatova@sunpharma.com"
+  },
+  {
+    "fname": "Oleg ",
+    "lname": "Supryaga  ",
+    "designation": "Medical and regulatory Director",
+    "ext": "2150",
+    "mobile": "8 985 920 35 89",
+    "email": "Oleg.Supryaga@sunpharma.com"
+  },
+  {
+    "fname": "Lilia ",
+    "lname": "Tunieva  ",
+    "designation": "Head of Regulatory ",
+    "ext": "2142",
+    "mobile": "8 926 270 63 92",
+    "email": "Liliya.Tunieva2@sunpharma.com"
+  },
+  {
+    "fname": "Elmira ",
+    "lname": "Akopova  ",
+    "designation": "Regulatory Compliance specialist",
+    "ext": "2257",
+    "mobile": "8 926 381 21 24",
+    "email": "Elmira.Akopova@sunpharma.com"
+  },
+  {
+    "fname": "Lilia",
+    "lname": "Bhat ",
+    "designation": "Administrative and technical specialist",
+    "ext": "2141",
+    "mobile": "8 916 070 79 49",
+    "email": "Liliya.Bhat@sunpharma.com"
+  },
+  {
+    "fname": "Olga",
+    "lname": "Grivko ",
+    "designation": " Regulatory Specialist ",
+    "ext": "2131",
+    "mobile": "8 966 127 55 68",
+    "email": "Olga.Sisitkina@sunpharma.com"
+  },
+  {
+    "fname": "Elizaveta",
+    "lname": "Kaygermazova ",
+    "designation": "Regulatory Specialist",
+    "ext": "2130",
+    "mobile": "8 967 120 63 62",
+    "email": "Elizaveta.Kaygermazova@sunpharma.com"
+  },
+  {
+    "fname": "Ekaterina",
+    "lname": "Kvitsiani ",
+    "designation": "Assistant of Regulatory Department",
+    "ext": "2233",
+    "mobile": "8 926 168 38 57",
+    "email": "Ekaterina.Kvitsiani@sunpharma.com "
+  },
+  {
+    "fname": "Oksana  ",
+    "lname": "Maksimova   ",
+    "designation": "Quality assurance Manager",
+    "ext": "2234",
+    "mobile": "8 967 144 84 34",
+    "email": "Oksana.Maksimova@sunpharma.com"
+  },
+  {
+    "fname": "Irina",
+    "lname": "Nazarova ",
+    "designation": "Clinical TRIALS manager",
+    "ext": "2243",
+    "mobile": "8 916 030 30 04",
+    "email": "Irina.Nazarova@sunpharma.com"
+  },
+  {
+    "fname": "Alexey ",
+    "lname": "Oberemkov  ",
+    "designation": "Pharmacovigilance Manager",
+    "ext": "2242",
+    "mobile": "8 916 246 90 20",
+    "email": "Alexey.Oberemkov@sunpharma.com"
+  },
+  {
+    "fname": "Svetlana",
+    "lname": "Popova ",
+    "designation": "Regulatory Specialist",
+    "ext": "2264",
+    "mobile": "8 910 468 67 77",
+    "email": "Svetlana.Popova@sunpharma.com  "
+  },
+  {
+    "fname": "Alexey ",
+    "lname": "Safronov  ",
+    "designation": "Regulatory Specialist",
+    "ext": "2136",
+    "mobile": "8 916 496 38 14",
+    "email": "Alexey.Safronov@sunpharma.com"
+  },
+  {
+    "fname": "Marina",
+    "lname": "Tabulova ",
+    "designation": "PVG Specialist",
+    "ext": "2140",
+    "mobile": "8 909 498 78 98",
+    "email": "Marina.Tabulova@sunpharma.com"
+  },
+  {
+    "fname": "Nina",
+    "lname": "Turygina ",
+    "designation": "Regulatory Specialist",
+    "ext": "2265",
+    "mobile": "8 926 872 70 23",
+    "email": "Nina.Turygina@sunpharma.com"
+  },
+  {
+    "fname": "Sergey ",
+    "lname": "Kukharchuk  ",
+    "designation": "Senior Medical Advisor",
+    "ext": "2210",
+    "mobile": "8 985 182 11 77",
+    "email": "sergey.Kukharchuk@sunpharma.com"
+  },
+  {
+    "fname": "Yulianna ",
+    "lname": "Kuznetsova  ",
+    "designation": "Medical Advisor",
+    "ext": "2244",
+    "mobile": "8 916 174 16 03",
+    "email": "Julianna.Kuznetsova@sunpharma.com"
+  },
+  {
+    "fname": "Violetta",
+    "lname": "Moshkova ",
+    "designation": "Medical Advisor",
+    "ext": "2112",
+    "mobile": "8 903 580 01 02",
+    "email": "Violetta.Moshkova@sunpharma.com"
+  },
+  {
+    "fname": "Olga",
+    "lname": "Popova ",
+    "designation": "Medical Advisor",
+    "ext": "1138",
+    "mobile": "8 985 784 85 47",
+    "email": "Olga.Popova@sunpharma.com"
+  },
+  {
+    "fname": "Ulugbek",
+    "lname": "Radzhabov ",
+    "designation": "Medical Advisor",
+    "ext": "2119",
+    "mobile": "8 926 382 32 28",
+    "email": "Ulugbek.Radzhabov@sunpharma.com"
+  },
+  {
+    "fname": "Olga ",
+    "lname": "Rubina  ",
+    "designation": "Medical Advisor",
+    "ext": "2137",
+    "mobile": "8 916 914 86 48",
+    "email": "Olga.Rubina@sunpharma.com"
+  },
+  {
+    "fname": "Yulia",
+    "lname": "Khivantseva ",
+    "designation": "Head HR Administration & Training Russia",
+    "ext": "2221",
+    "mobile": "8 977 570 78 12",
+    "email": "Yulia.Khivantseva@sunpharma.com"
+  },
+  {
+    "fname": "Elena",
+    "lname": "Chumakova ",
+    "designation": "HR Business Partner",
+    "ext": "2206",
+    "mobile": "8 985 268 44 53",
+    "email": "Elena.Chumakova@sunpharma.com"
+  },
+  {
+    "fname": "Galina",
+    "lname": "Filichkina ",
+    "designation": "HR Business Partner ",
+    "ext": "1117",
+    "mobile": "8 926 555 95 28",
+    "email": "Galina.Filichkina@sunpharma.com"
+  },
+  {
+    "fname": "Anastasiya",
+    "lname": "Kolchu ",
+    "designation": " HR Supervisor",
+    "ext": "1101",
+    "mobile": "8 917 556 71 02",
+    "email": "Anastasiya.Kolchu@sunpharma.com"
+  },
+  {
+    "fname": "Nataliya",
+    "lname": "Mishina ",
+    "designation": "Recruiter",
+    "ext": "2253",
+    "mobile": "8 985 964 71 51",
+    "email": "Natalya.Mishina@sunpharma.com"
+  },
+  {
+    "fname": "Ludmila ",
+    "lname": "Philipieva  ",
+    "designation": "HR Supervisor",
+    "ext": "2226",
+    "mobile": "8 926 622 08 22",
+    "email": "Ludmila.Phillipieva@sunpharma.com"
+  },
+  {
+    "fname": "Svetlana ",
+    "lname": "Rubtsova  ",
+    "designation": "HR Manager ",
+    "ext": "2113",
+    "mobile": "8 926 117 57 51",
+    "email": "Svetlana.Rubtsova@sunpharma.com"
+  },
+  {
+    "fname": "Kapoor",
+    "lname": "Vivek ",
+    "designation": "Director in Economics  ",
+    "ext": "2116",
+    "mobile": "8 985 185 28 89",
+    "email": "Vivek.Kapoor@sunpharma.com"
+  },
+  {
+    "fname": "Abrol",
+    "lname": "Arvind ",
+    "designation": "Director of Finance Department",
+    "ext": "2111",
+    "mobile": "8 903 262 70 54",
+    "email": "Arvind.abrol@sunpharma.com"
+  },
+  {
+    "fname": "Alexandra",
+    "lname": "Sycheva ",
+    "designation": "Financial Analyst",
+    "ext": "2118",
+    "mobile": "8 901 750 13 30",
+    "email": "Aleksandra.sycheva@sunpharma.com"
+  },
+  {
+    "fname": "Evgeniya",
+    "lname": "Burmistrova ",
+    "designation": "Financial Analyst",
+    "ext": "2213",
+    "mobile": "8 926 726 03 73",
+    "email": "Evgeniya.Burmistrova@sunpharma.com"
+  },
+  {
+    "fname": "Ludmila ",
+    "lname": "Manuilova  ",
+    "designation": "Chief Accountant ",
+    "ext": "1123",
+    "mobile": "8 919 962 04 67 ",
+    "email": "Ludmila.Manuilova@sunpharma.com"
+  },
+  {
+    "fname": "Oxana",
+    "lname": "Sarana ",
+    "designation": "Senior Tax Accountant",
+    "ext": "1114",
+    "mobile": "8 985 518 63 53",
+    "email": "Oxana.Sarana@sunpharma.com"
+  },
+  {
+    "fname": "Tatiana ",
+    "lname": "Borisova  ",
+    "designation": "Senior Accountant ",
+    "ext": "1140",
+    "mobile": "8 916 900 29 00",
+    "email": "Tatyana.Borisova@sunpharma.com"
+  },
+  {
+    "fname": "Anna",
+    "lname": "Bakare ",
+    "designation": "Accountant",
+    "ext": "1144",
+    "mobile": "8 925 827 10 15",
+    "email": "anna.bakare@sunpharma.com"
+  },
+  {
+    "fname": "Elena ",
+    "lname": "Dronova  ",
+    "designation": "Accountant",
+    "ext": "1116",
+    "mobile": "8 903 660 43 86",
+    "email": "Elena.Dronova@sunpharma.com"
+  },
+  {
+    "fname": "Nailya",
+    "lname": "Shayakhmetova ",
+    "designation": "Accountant",
+    "ext": "1132",
+    "mobile": "8 965 274 34 88",
+    "email": "Nailya.Shayakhmetova@sunpharma.com"
+  },
+  {
+    "fname": "Marina",
+    "lname": "Simonenkova ",
+    "designation": "Accountant",
+    "ext": "2224",
+    "mobile": "8 916 409 41 37",
+    "email": "Marina.Simonenkova@sunpharma.com"
+  },
+  {
+    "fname": "Irina",
+    "lname": "Solomatina ",
+    "designation": "Accountant",
+    "ext": "2128",
+    "mobile": "8 906 094 99 87",
+    "email": "Irina.Koroleva@sunpharma.com "
+  },
+  {
+    "fname": "Irina",
+    "lname": "Goncharova ",
+    "designation": "Accountant",
+    "ext": "2211",
+    "mobile": "8 916 192 65 92",
+    "email": "irina.goncharova@sunpharma.com"
+  },
+  {
+    "fname": "Alexandra",
+    "lname": "Zubritskaya ",
+    "designation": "Accountant",
+    "ext": "2108",
+    "mobile": "8 916 926 41 17",
+    "email": "Alexandra.Zubritskaya@sunpharma.com"
+  },
+  {
+    "fname": "Olga",
+    "lname": "Syrkasheva ",
+    "designation": "Chief Accountant SPIL ",
+    "ext": "2147",
+    "mobile": "8 915 039 72 21",
+    "email": "Olga.Syrkasheva@sunpharma.com"
+  },
+  {
+    "fname": "Natalia",
+    "lname": "Egorova ",
+    "designation": "Accountant",
+    "ext": "2148",
+    "mobile": "8 926 291 41 66",
+    "email": "Natalya.Egorova@sunpharma.com"
+  },
+  {
+    "fname": "Oksana ",
+    "lname": "Gomolya  ",
+    "designation": "Accountant",
+    "ext": "2149",
+    "mobile": "8 999 848 87 96",
+    "email": "Oksana.Gomolya@sunpharma.com"
+  },
+  {
+    "fname": "Olga ",
+    "lname": "Dzhugostranskaya  ",
+    "designation": "Work safety Specialist",
+    "ext": "1120",
+    "mobile": "8 903 141 19 31",
+    "email": "Olga.Dzhugostranskaya@sunpharma.com"
+  },
+  {
+    "fname": "Vladimir",
+    "lname": "Ananchenko ",
+    "designation": "Administrative Manager",
+    "ext": "2103",
+    "mobile": "8 903 192 95 62",
+    "email": "Vladimir.Ananchenko@sunpharma.com"
+  },
+  {
+    "fname": "Sergey",
+    "lname": "Lepetan ",
+    "designation": "Head of Legal Department",
+    "ext": "2123",
+    "mobile": "8 919 411 67 37",
+    "email": "Sergey.Lepetan@sunpharma.com"
+  },
+  {
+    "fname": "Alexander ",
+    "lname": "Voloshinov  ",
+    "designation": "Senior Lawyer",
+    "ext": "1115",
+    "mobile": "8 903 239 51 08",
+    "email": "Alexandr.Voloshinov@sunpharma.com"
+  },
+  {
+    "fname": "Anna ",
+    "lname": "Piven  ",
+    "designation": "Lawyer ",
+    "ext": "2102",
+    "mobile": "8 916 742 12 70",
+    "email": "Anna.Piven@sunpharma.com"
+  },
+  {
+    "fname": "Ramazan",
+    "lname": "Akkulov ",
+    "designation": "IT (system)-administrator",
+    "ext": "1118",
+    "mobile": "8 917 490 95 11",
+    "email": "ramazan.akkulov@sunpharma.com"
+  },
+  {
+    "fname": "Mikhail ",
+    "lname": "Vorobyev  ",
+    "designation": "Application support specialist ",
+    "ext": "2240",
+    "mobile": "8 926 115 62 48",
+    "email": "Mikhail.Vorobyev@sunpharma.com"
+  },
+  {
+    "fname": "Mikhail",
+    "lname": "Bolysov ",
+    "designation": "Head of Commerce",
+    "ext": "2145",
+    "mobile": "8 915 085 68 88",
+    "email": "Mikhail.Bolysov@sunpharma.com"
+  },
+  {
+    "fname": "Tatyana",
+    "lname": "Afonina ",
+    "designation": "Key Account Manager (Biosintez)",
+    "ext": "2260",
+    "mobile": "8 903 323 53 94 ",
+    "email": "tatyana.afonina@sunpharma.com"
+  },
+  {
+    "fname": "Ekaterina ",
+    "lname": "Amakhina  ",
+    "designation": "Sales Analyst (MIS specialist)",
+    "ext": "1133",
+    "mobile": "8 916 727 81 18",
+    "email": "Ekaterina.Amakhina@sunpharma.com"
+  },
+  {
+    "fname": "Elena",
+    "lname": "Andruseva ",
+    "designation": "Senior Manager Commercial & Logistics ",
+    "ext": "1110",
+    "mobile": "8 909 686 65 87",
+    "email": "Elena.Andruseva@sunpharma.com"
+  },
+  {
+    "fname": "Igor ",
+    "lname": "Borodin  ",
+    "designation": "Sales Manager",
+    "ext": "1113",
+    "mobile": "8 963 659 10 40",
+    "email": "Igor.Borodin@sunpharma.com"
+  },
+  {
+    "fname": "Natalia ",
+    "lname": "Davidova  ",
+    "designation": "Warehouse in charge Manager",
+    "ext": "2321",
+    "mobile": "8 916 647 99 40",
+    "email": "Natalia.Davidova@sunpharma.com"
+  },
+  {
+    "fname": "Natalya ",
+    "lname": "Fedorovtseva  ",
+    "designation": "Sales Executive",
+    "ext": "1126",
+    "mobile": "8 903 187 66 18",
+    "email": "Natalya.Fedorovtseva@sunpharma.com"
+  },
+  {
+    "fname": "Elena",
+    "lname": "Glazova ",
+    "designation": "Junior Sales Executive",
+    "ext": "1106",
+    "mobile": "8 952 965 03 00",
+    "email": "elena.glazova@sunpharma.com"
+  },
+  {
+    "fname": "Anastasiya",
+    "lname": "Gorodnyaya ",
+    "designation": "Key Account Manager (Biosintez)",
+    "ext": "1142",
+    "mobile": "8 926 053 47 99",
+    "email": "Anastasiya.Gorodnyaya@sunpharma.com"
+  },
+  {
+    "fname": "Renat",
+    "lname": "Ibragimov ",
+    "designation": "Senior Manager of Tender Business",
+    "ext": "2248",
+    "mobile": "8 985 921 88 12",
+    "email": "Renat.Ibragimov@sunpharma.com "
+  },
+  {
+    "fname": "Michael",
+    "lname": "Kamenetskiy ",
+    "designation": "Manager on Logistics & Customs ",
+    "ext": "1102",
+    "mobile": "8 903 104 99 96",
+    "email": "Michael.Kamenetskyi@sunpharma.com"
+  },
+  {
+    "fname": "Sergey",
+    "lname": "Kuznetsov ",
+    "designation": "Head of Sales (Biosintez)",
+    "ext": "2258",
+    "mobile": "8 985 784 27 11",
+    "email": "Sergey.Kuznetsov@sunpharma.com"
+  },
+  {
+    "fname": "Andrey",
+    "lname": "Lepshin ",
+    "designation": "Sales Executive",
+    "ext": "1139",
+    "mobile": "8 926 214 52 53",
+    "email": "Andrey.Lepshin@sunpharma.com"
+  },
+  {
+    "fname": "Andrey ",
+    "lname": "Lesovsky  ",
+    "designation": "Senior Trade Marketing Manager",
+    "ext": "2247",
+    "mobile": "8 985 363 45 77",
+    "email": "Andrey.Lesovsky@sunpharma.com"
+  },
+  {
+    "fname": "Valentina ",
+    "lname": "Ryabova  ",
+    "designation": "Certification Specialist",
+    "ext": "1127",
+    "mobile": "8 916 229 24 51",
+    "email": "Valentina.Ryabova@sunpharma.com"
+  },
+  {
+    "fname": "Nadezhda ",
+    "lname": "Trushkina  ",
+    "designation": "Senior RDP Specialist",
+    "ext": "2235",
+    "mobile": "8 916 544 19 93",
+    "email": "nadezhda.trushkina@sunpharma.com"
+  },
+  {
+    "fname": "Daria",
+    "lname": "Yukhareva ",
+    "designation": "Logistic Specialist",
+    "ext": "1105",
+    "mobile": "8 905 725 94 60",
+    "email": "Daria.Yukhareva@sunpharma.com"
+  },
+  {
+    "fname": "Yulia",
+    "lname": "Yurganova ",
+    "designation": "Head of pharmacy chain management",
+    "ext": "2252",
+    "mobile": "8 915 460 09 40",
+    "email": "Yulia.Yurganova@sunpharma.com"
+  },
+  {
+    "fname": "Maksim ",
+    "lname": "Danakin  ",
+    "designation": "Sales Executive",
+    "ext": "1130",
+    "mobile": "8 926 206 40 35",
+    "email": "Maksim.Danakin@sunpharma.com"
+  },
+  {
+    "fname": "Andrey",
+    "lname": "Gerasimov ",
+    "designation": "Key Account Manager",
+    "ext": "2202",
+    "mobile": "8 968 946 24 10",
+    "email": "Andrey.Gerasimov@sunpharma.com"
+  },
+  {
+    "fname": "Denis",
+    "lname": "Loranskiy ",
+    "designation": "Key Account Manager",
+    "ext": "2207",
+    "mobile": "8 985 616 58 19",
+    "email": "Denis.Loranskiy@sunpharma.com"
+  },
+  {
+    "fname": "Anna",
+    "lname": "Petrova ",
+    "designation": "Sales Executive",
+    "ext": "2134",
+    "mobile": "8 903 534 91 87",
+    "email": "Anna.Petrova@sunpharma.com"
+  },
+  {
+    "fname": "Anna ",
+    "lname": "Velikaya  ",
+    "designation": "Sales Executive",
+    "ext": "1121",
+    "mobile": "8 969 347 83 28",
+    "email": "Anna.Muravyova@sunpharma.com"
+  },
+  {
+    "fname": "Dmitriy",
+    "lname": "Zhukov ",
+    "designation": "Senior Key Account Manager",
+    "ext": "2203",
+    "mobile": "8 985 393 48 54",
+    "email": "Dmitriy.Zhukov@sunpharma.com"
+  },
+  {
+    "fname": "Tatyana",
+    "lname": "Malozemova",
+    "designation": "Cleaning staff",
+    "mobile": "8 906 141 43 62"
+  }
+  }
+]
