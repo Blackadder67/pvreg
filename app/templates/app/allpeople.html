@@ -1,0 +1,41 @@
+{% extends 'base_template.html' %}
+
+{% block extrahead %}
+{% endblock %}
+
+
+{% block content %}
+<form action="{% url 'exams_created_shared' %}" method="post">
+    {% csrf_token %}
+    <button type="submit" class="btn btn-primary">Создать и разослать</button>
+    <input type="text" id="tb_search_person" placeholder="Поиск" class="ml-2" oninput="searchPerson()"><br><br>
+    <label><input type="checkbox" id="cb_no_inductory" class="ml-2" onchange="selectNoInductory()">Вводный тренинг не проводился</label><br><br>
+    <!--<label><input type="checkbox" id="cb_select_all" class="ml-2" onchange="selectAll()">Выбрать все</label><br><br>-->
+    <label><input type="checkbox" id="cb_select_all" class="ml-2">Выбрать все</label><br><br>
+
+    <ul class="list-group">
+{% for p in people %}
+
+         <li class="list-group-item d-flex justify-content-between align-items-center">
+    <label name="lab"><input type="checkbox" id="cb" name="chbox" value="{{ p.pk }}" class="ml-2">{{ p.email }}</label>
+    <span class="badge badge-primary badge-pill">{{ p.get_last_exam_info }}!</span>
+  </li>
+{% endfor %}
+    </ul>
+
+
+</form>
+
+<script>
+$('#cb_select_all').click(function(){
+    if ($(this).is(':checked')){
+        $('#cb input:checkbox').prop('checked', true);
+    } else {
+        $('#cb input:checkbox').prop('checked', false);
+    }
+});
+};
+</script>
+
+{% endblock %}
+

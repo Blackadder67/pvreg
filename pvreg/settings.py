@@ -26,8 +26,9 @@ SECRET_KEY = '_=rte2^2o%#cm6id=$a!07he6ss$7)_g4m*!0s*_ee7zq&-k%s'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '192.168.0.63',
-    '10.104.2.84',
+    '127.0.0.1',
+    # '192.168.0.63',
+    # '10.104.2.84',
 ]
 
 
@@ -133,3 +134,10 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
 STATIC_URL = '/static/'
+
+EMAIL_HOST = 'smtp.mail.ru'
+EMAIL_PORT = 465
+EMAIL_HOST_USER = 'spilpv@mail.ru'
+EMAIL_HOST_PASSWORD = '83hhZqnA'
+EMAIL_USE_TLS = False
+EMAIL_USE_SSL = True

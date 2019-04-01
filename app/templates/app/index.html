@@ -12,11 +12,11 @@
 </div>
 
 <div class="container">
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="{% url 'pv' %}">Pharmacovigilance</a>
-    <a class="navbar-brand" href="{% url 'reg' %}">Regulatory</a>
-    <a class="navbar-brand" href="{% url 'ct' %}">Clinical Studies</a>
-    <a class="navbar-brand" href="{% url 'contacts_search' %}">Contacts</a>
-  </nav>
+  <nav class="nav">
+  <a class="nav-link active" href="pv">Фармаконадзор</a>
+  <a class="nav-link disabled" href="reg">Препараты</a>
+  <a class="nav-link disabled" href="ct">Клинические исследования</a>
+  <a class="nav-link disabled" href="{% url 'contacts_search' %}" tabindex="-1" aria-disabled="true">Контакты</a>
+</nav>
 </div>
 {% endblock %}

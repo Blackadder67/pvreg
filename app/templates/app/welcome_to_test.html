@@ -1,0 +1,20 @@
+{% extends 'base_template.html' %}
+
+{% block content %}
+<p>Добро пожаловать, {{ exam.person }}</p>
+<form action="{% url 'result' %}" method="post">
+       {% csrf_token %}
+    <ol>
+    {% for q in questions %}
+    <br>
+    <li>
+        <h4>{{ q.text }}</h4>
+    {% for a in q.get_answers %}
+                <input type="checkbox" name="chbox" value="{{ a.pk }}" class="ml-5">{{ a.text }}</input>
+    {% endfor %}
+    {% endfor %}
+        </li>
+    </ol>
+  <button type="submit" class="btn btn-primary">Проверить</button>
+</form>
+{% endblock %}

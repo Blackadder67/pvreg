@@ -1,0 +1,20 @@
+{% extends 'base_template.html' %}
+{% load static %}
+{% block content %}
+<div class="div-with-back">
+<form action="{% url 'check_pass' %}" method="post">
+    {% csrf_token %}
+  <!--<div class="form-group">-->
+    <!--<label for="inputEmail">Email</label>-->
+    <!--<input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="email" name="inputEmail">-->
+    <!--<small id="emailHelp" class="form-text text-muted">Введите Ваш адрес почты.</small>-->
+  <!--</div>-->
+  <div class="form-group justify-content-center align-items-center">
+    <label for="keyword">Ключ:</label>
+    <input type="text" class="form-control" id="keyword" placeholder="ключ" name="inputKeyword">
+      <small id="keywordHelp" class="form-text text-muted">Введите ключ, полученный от сотрудников фармаконадзора.</small>
+  </div>
+  <button type="submit" class="btn btn-primary">OK</button>
+</form>
+</div>
+{% endblock %}

@@ -1,4 +1,6 @@
 from django.db import models
+from uuid import uuid4
+
 
 # Create your models here.
 
@@ -21,8 +23,20 @@ class Person(models.Model):
     ext = models.CharField(max_length=4, null=True, blank=True)
     mobile = models.CharField(max_length=50, null=True, blank=True)
     email = models.EmailField(null=True, blank=True)
+    active = models.BooleanField(default=True)
     def __str__(self):
         return '{}) {}'.format(self.pk, self.email)
+    def get_last_exam_info(self):
+        info = ''
+        last_exam = Exam.objects.filter(person__email=self.email).last()
+        if last_exam == None:
+            info = 'No training'
+        else:
+            if last_exam.sent != None:
+                info = 'sent {}'.format(last_exam.sent)
+            if last_exam.resolved != None:
+                info = 'resolved {}'.format(last_exam)
+        return info
 
 class PhTherGroup(models.Model):
     name = models.CharField(max_length=300, unique=True)
@@ -94,7 +108,7 @@ class ADR(models.Model):
     source_is_hcp = models.BooleanField(null=True, blank=True)
     initial_reporter = models.CharField(max_length=200, null=True, blank=True)
     secondary_reporter = models.ForeignKey(Person, on_delete=models.CASCADE, null=True, blank=True)
-    created = models.DateTimeField(auto_now=True)
+    created = models.DateTimeField()
 
 class PSUR(models.Model):
     old_id = models.IntegerField(null=True, blank=True)
@@ -104,4 +118,43 @@ class PSUR(models.Model):
     recommendations_rus = models.TextField()
     recommendations_eng = models.TextField()
     path_to_folder = models.CharField(max_length=300, null=True, blank=True)
+
+class Exam(models.Model):
+    person = models.ForeignKey(Person, on_delete='CASCADE')
+    guid = models.CharField(max_length=36, default='')
+    sent = models.DateTimeField(blank=True, null=True)
+    resolved = models.DateField(blank=True, null=True)
+    rate = models.IntegerField(null=True, blank=True)
+    def __str__(self):
+        return '{}, sent {}: rate {}'.format(self.person, self.sent, self.rate)
+    def set_guid(self):
+        self.guid = str(uuid4())
+
+class Question(models.Model):
+    text = models.CharField(max_length=500, unique=True)
+    pv = 'pv'
+    med = 'med'
+    QUESTION_GROUP_CHOICES = (
+        (pv, 'pv'),
+        (med, 'med'),
+    )
+    question_group = models.CharField(max_length=3, choices=QUESTION_GROUP_CHOICES, null=True, blank=True)
+    def __str__(self):
+        return '{}'.format(self.text)
+    def get_answers(self):
+        return self.answer_set.all()
+
+class Answer(models.Model):
+    question = models.ForeignKey(Question, on_delete='CASCADE')
+    text = models.CharField(max_length=500)
+    is_correct = models.BooleanField(default=False)
+    def __str__(self):
+        return '{} - {}.{}, {}'.format(self.question, self.pk, self.text, self.is_correct)
+
+class ResolvedAnswer(models.Model):
+    exam = models.ForeignKey(Exam, on_delete='CASCADE')
+    answer = models.ForeignKey(Answer, on_delete='CASCADE')
+    is_checked = models.BooleanField(default=False)
     created = models.DateTimeField(auto_now=True)
+    def __str__(self):
+        return '{} {}'.format(self.exam, self.answer, self.is_checked)
