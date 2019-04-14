@@ -6,26 +6,31 @@ from random import sample
 from django.contrib.auth.decorators import login_required
 from datetime import datetime
 from django.http import Http404
-from django.utils.timezone import now as NOW
+#from django.utils.timezone import now as NOW
 
 # Create your views here.
 
 def index_view(request):
+    #people = Person.objects.get(pk=170)
+    #return render(request, 'app/index.html', {'people': people})
     return render(request, 'app/index.html')
 
 def contacts_search_view(request):
-    departments = Department.objects.all()
-    return render(request, 'app/contacts_search.html', {'departments': departments})
+    #departments = Department.objects.all()
+    #return render(request, 'app/contacts_search.html', {'departments': departments})
+    return render(request, 'app/contacts_search.html')
 
 def contacts_view(request):
     contact_search = request.POST.get('contact_search')
-    people = Person.objects.filter(Q(lname__contains=contact_search) | Q(fname__contains=contact_search)).order_by('lname')
-    return render(request, 'app/contacts.html', {'people': people})
+    #people = Person.objects.filter(Q(lname__contains=contact_search) | Q(fname__contains=contact_search)).order_by('lname')
+    #return render(request, 'app/contacts.html', {'people': people})
+    return render(request, 'app/contacts.html')
 
 def department_contacts_view(request):
-    dep = request.POST.get('department')
-    people = Department.objects.get(pk=dep).get_people()
-    return render(request, 'app/contacts.html', {'people': people})
+#    dep = request.POST.get('department')
+#    people = Department.objects.get(pk=dep).get_people()
+#    return render(request, 'app/contacts.html', {'people': people})
+    return render(request, 'app/contacts.html')
 
 def pv_view(request):
     return render(request, 'app/pv.html')

@@ -26,9 +26,7 @@ SECRET_KEY = '_=rte2^2o%#cm6id=$a!07he6ss$7)_g4m*!0s*_ee7zq&-k%s'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '127.0.0.1',
-    # '192.168.0.63',
-    # '10.104.2.84',
+    'blackadder67.pythonanywhere.com',
 ]
 
 
@@ -89,13 +87,23 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'postgres',
-        'USER': 'postgres',
-        'PASSWORD': '83hhZqnA',
-        'HOST': '10.104.2.84',
-        'PORT': '5432',
+        'USER': 'super',
+        'PASSWORD': '7ym$qC29',
+        'HOST': 'Blackadder67-1126.postgres.pythonanywhere-services.com',
+        'PORT': '11126',
     }
 }
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'pvregdb',
+#         'USER': 'Blackadder67',
+#         'PASSWORD': '7ym$qC29',
+#         'HOST': 'Blackadder67.mysql.pythonanywhere-services.com', # Or an IP Address that your DB is hosted on
+#         'PORT': '3306',
+#     }
+# }
 
 # Password validation
 # https://docs.djangoproject.com/en/2.1/ref/settings/#auth-password-validators
@@ -134,6 +142,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
 STATIC_URL = '/static/'
+
+STATIC_ROOT = '/home/Blackadder67/pvreg/static'
 
 EMAIL_HOST = 'smtp.mail.ru'
 EMAIL_PORT = 465
